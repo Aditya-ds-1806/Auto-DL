@@ -1,0 +1,11 @@
+{
+    "name": "Auto DL Frontend",
+    "buildpacks": [
+        {
+            "url": "https://github.com/timanovsky/subdir-heroku-buildpack.git"
+        },
+        {
+            "url": "heroku/nodejs"
+        }
+    ]
+}
